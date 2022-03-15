@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+    <!-- Trees -->
 
-        <!-- Remote -->
-        <remote name="hengker" fetch="https://github.com/imannig" />
-        <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />
-
-        <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="hengker" revision="snow" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="hengker" revision="12" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="hengker" revision="JuiceIcedSnow" clone-depth="1" />
-        
-        <!-- Clang 14 Version 14.0.2 -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="android_prebuilts_clang_host_linux-x86_clang-r445002" remote="crdroid-gitlab" revision="refs/heads/12.0" clone-depth="1" />
+  <project path="device/samsung/universal7870-common" name="samsungexynos7870/android_device_samsung_universal7870-common" remote="github" revision="crdroid" clone-depth="1" />
+  <project path="device/samsung/j7xelte" name="samsungexynos7870/android_device_samsung_j7xelte" remote="github" revision="crdroid" clone-depth="1" />
+  <project path="kernel/samsung/exynos7870" name="samsungexynos7870/android_kernel_samsung_exynos7870" remote="github" revision="aosp" clone-depth="1" />
+  <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="github" revision="common" clone-depth="1" />
+  <project path="vendor/samsung/j7xelte" name="samsungexynos7870/android_vendor_samsung_j7xelte" remote="github" revision="common" clone-depth="1" />
+  <project path="hardware/samsung" name="samsungexynos7870/android_hardware_samsung" remote="github" revision="lineage-17.1" clone-depth="1" />
+  <project path="hardware/samsung/slsi/exynos" name="samsungexynos7870/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-17.1" clone-depth="1" />
+  <project path="hardware/samsung/slsi/exynos7870" name="samsungexynos7870/android_hardware_samsung_slsi_exynos7870" remote="github" revision="lineage-17.1" clone-depth="1" />
+  <project path="hardware/samsung/slsi/exynos5" name="samsungexynos7870/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-17.1" clone-depth="1" />
+  
 
 </manifest>
