@@ -2,11 +2,11 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="hengker" fetch="https://github.com/imannig" />
+        <remote name="hengker" fetch="https://github.com/ProjectElixir-devices" />
         <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="hengker" revision="snow" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="hengker" revision="snow" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="hengker" revision="12" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="hengker" revision="JuiceIcedSnow" clone-depth="1" />
         
