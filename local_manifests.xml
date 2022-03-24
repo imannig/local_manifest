@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-        <!-- Remote -->
-        <remote name="hengker" fetch="https://github.com/ProjectElixir-devices" />
-        <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />
-
-        <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="hengker" revision="snow" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="hengker" revision="12" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="hengker" revision="JuiceIcedSnow" clone-depth="1" />
         
-        <!-- Clang 14 Version 14.0.2 -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r445002" name="android_prebuilts_clang_host_linux-x86_clang-r445002" remote="crdroid-gitlab" revision="refs/heads/12.0" clone-depth="1" />
+ 	<project path="device/samsung/on7xelte" name="imannig/device_samsung_on7xelte" remote="github" revision="eleven"/>
+ 	<project path="kernel/samsung/exynos7870" name="DevOtag-Open-Source/android_kernel_samsung_exynos7870" remote="github" revision="eleven"/>
+ 	<project path="vendor/samsung/on7xelte" name="DevOtag-Open-Source/android_vendor_samsung_on7xelte" remote="github" revision="eleven"/>
+ 	<project path="hardware/samsung" name="Havoc-Devices/android_hardware_samsung" remote="github" revision="eleven"/>
+  <remove-project name="platform/hardware/ril" />
+ 	<project path="hardware/ril" name="Stealth1226/hardware_ril" remote="github" revision="11" />
+  <remove-project name="external/tinycompress" />
+ 	<project path="external/tinycompress" name="lineageos/android_external_tinycompress" remote="github" revision="lineage-18.1" />
+  <remove-project name="system/sepolicy" />
+ 	<project path="system/sepolicy" name="Stealth1226/system_sepolicy" remote="github" revision="raft" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+ 	<project path="system/tools/mkbootimg" name="lighthouse-os/android_system_tools_mkbootimg" remote="github" revision="raft" />
+        <project path="hardware/samsung/slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" />
+        <project path="hardware/samsung/slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" />
+        <project path="hardware/samsung/slsi/exynos7870" name="TALUAtGitHub/android_hardware_samsung_slsi_exynos7870" remote="github" />
+
 
 </manifest>
