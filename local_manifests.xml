@@ -8,7 +8,7 @@
   <project path="kernel/samsung/exynos7870" name="samsungexynos7870/android_kernel_samsung_exynos7870" remote="github" revision="aosp" clone-depth="1" />
   <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="github" revision="common" clone-depth="1" />
   <project path="vendor/samsung/on7xelte" name="samsungexynos7870/android_vendor_samsung_on7xelte" remote="github" revision="common" clone-depth="1" />
-  <project path="hardware/samsung" name="samsungexynos7870/android_hardware_samsung" remote="github" revision="lineage-17.1" clone-depth="1" />
+  <project path="hardware/samsung" name="imannig/android_hardware_samsung" remote="github" revision="lineage-17.1" clone-depth="1" />
   <project path="hardware/samsung/slsi/exynos" name="samsungexynos7870/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-17.1" clone-depth="1" />
   <project path="hardware/samsung/slsi/exynos7870" name="samsungexynos7870/android_hardware_samsung_slsi_exynos7870" remote="github" revision="lineage-17.1" clone-depth="1" />
   <project path="hardware/samsung/slsi/exynos5" name="samsungexynos7870/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-17.1" clone-depth="1" />
