@@ -15,11 +15,11 @@
   <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="github" revision="common" clone-depth="1" />
   <project path="vendor/samsung/on7xelte" name="samsungexynos7870/android_vendor_samsung_on7xelte" remote="github" revision="common" clone-depth="1" />
   <project path="vendor/samsung/j7xelte" name="samsungexynos7870/android_vendor_samsung_j7xelte" remote="github" revision="common" clone-depth="1" />
-  <project path="device/samsung/j6lte" name="samsungexynos7870/android_vendor_samsung_j6lte" remote="github" revision="common" clone-depth="1" />
-  <project path="device/samsung/j7y17lte" name="samsungexynos7870/android_vendor_samsung_j7y17lte" remote="github" revision="common" clone-depth="1" />
-  <project path="device/samsung/a3y17lte" name="samsungexynos7870/android_vendor_samsung_a3y17lte" remote="github" revision="common" clone-depth="1" />
-  <project path="device/samsung/j5y17lte" name="samsungexynos7870/android_vendor_samsung_j5y17lte" remote="github" revision="common" clone-depth="1" />
-  <project path="device/samsung/j7velte" name="samsungexynos7870/android_vendor_samsung_j7velte" remote="github" revision="common" clone-depth="1" />
+  <project path="vendor/samsung/j6lte" name="samsungexynos7870/android_vendor_samsung_j6lte" remote="github" revision="common" clone-depth="1" />
+  <project path="vendor/samsung/j7y17lte" name="samsungexynos7870/android_vendor_samsung_j7y17lte" remote="github" revision="common" clone-depth="1" />
+  <project path="vendor/samsung/a3y17lte" name="samsungexynos7870/android_vendor_samsung_a3y17lte" remote="github" revision="common" clone-depth="1" />
+  <project path="vendor/samsung/j5y17lte" name="samsungexynos7870/android_vendor_samsung_j5y17lte" remote="github" revision="common" clone-depth="1" />
+  <project path="vendor/samsung/j7velte" name="samsungexynos7870/android_vendor_samsung_j7velte" remote="github" revision="common" clone-depth="1" />
   <project path="hardware/samsung" name="imannig/android_hardware_samsung" remote="github" revision="lineage-17.1" clone-depth="1" />
   <project path="hardware/samsung/slsi/exynos" name="samsungexynos7870/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-17.1" clone-depth="1" />
   <project path="hardware/samsung/slsi/exynos7870" name="samsungexynos7870/android_hardware_samsung_slsi_exynos7870" remote="github" revision="lineage-17.1" clone-depth="1" />
